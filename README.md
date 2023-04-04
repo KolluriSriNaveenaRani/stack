@@ -1,3 +1,22 @@
-# Solutions of part 2 exercises
+# Phonebook API
 
-In this part, we will first take a look at how to render a data collection, like a list of names, to the screen. After this, we will inspect how a user can submit data to a React application using HTML forms. Next, our focus shifts towards looking at how JavaScript code in the browser can fetch and handle data stored in a remote backend server. Lastly, we will take a quick look at a few simple ways of adding CSS styles to our React applications.
+In this exercise, we implemented a fullstack phonebook app with a backend written in Node.js and a frontend in react.js. The data are saved in a mongodb database and the app is deployed on heroku at the folowing URL.
+
+* https://peaceful-depths-89341.herokuapp.com/
+
+## Start the application locally
+
+To start an application:
+
+```bash
+# Install dependancies
+$ npm install
+
+# create a .env file and put there the MONGODB_URI for connecting to your mongodb database
+$ echo "MONGODB_URI=<YOUR-MONGODB-URI>" > .env
+
+# Start the application
+$ npm run dev
+```
+
+You can then access the app on : http://localhost:3001/
